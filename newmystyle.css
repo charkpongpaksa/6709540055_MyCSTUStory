@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+.Firstslide {
+    background-image: url(resources/Untitled\ design.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Header and Nav*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 18px;
+    /* border: solid; */
+    /* position: sticky;
+    top: 0px; */
+    /* overflow: auto; */
+}
+
+nav ul {
+    /* border: solid; */
+    display: flex;
+    list-style: none;
+    background-color: #43766C;
+    border-radius: 100px;
+}
+
+nav ul li {
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#Home, #About, #Future, #Contact {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-weight: 450;
+}
+
+#logo {
+    border: solid 2px;
+    /* background-color: #7e0505; */
+    padding: 13px;
+    border-radius: 25px;
+    color: #fdfdfd;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 70px;
+}
+
+.img img{
+    width: 550px;
+    height: 100%;
+    position: relative;
+}
+
+/*Main*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#name {
+    font-size: 80px;
+    color: rgb(12, 12, 12);;
+    font-weight: 500;
+}
+
+#name span {
+    color: #d60202;
+}
+
+.button {
+    border: solid;
+    
+}
+
+.button a {
+    border: solid;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    overflow: auto;
+}
+
+#Home:hover, #About:hover, #Future:hover, #Contact:hover {
+    opacity: 0.8;
+}
+
+/*Section 2*/
+
+.Secondslide {
+    /* border-radius: 20px;
+    background-image: url(resources/pxfuel.jpg); */
+}
