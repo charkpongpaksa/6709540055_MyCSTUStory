@@ -7,6 +7,10 @@
     font-family: Montserrat;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fdfdfd;
     color: #333;
@@ -55,6 +59,13 @@ nav ul li a {
     margin-left: 35px;
     margin-right: 35px;
     font-weight: 450;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+#Home:hover, #About:hover, #Future:hover, #Contact:hover {
+    background-color: var(--clr-light);
+    color: var(--clr-light);
+    opacity: 0.8;
 }
 
 #logo {
@@ -108,10 +119,6 @@ main {
     font-size: 25px;
     text-decoration: none;
     overflow: auto;
-}
-
-#Home:hover, #About:hover, #Future:hover, #Contact:hover {
-    opacity: 0.8;
 }
 
 #description {
