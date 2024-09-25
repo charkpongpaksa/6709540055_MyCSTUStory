@@ -132,11 +132,13 @@ main {
 
 /* left */
 .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 30%;
     height: 100%;
     float: left;
-    padding: 30px;
 }
 
 .info #nameinfo {
@@ -145,17 +147,20 @@ main {
 }
 
 .info #myphoto {
-    margin-top: -78px;
+    display: flex;
+    justify-content: center;
+    margin-top: -65px;
+}
+
+.info #myphoto img {
+    height: auto;
+    width: 78%;
 }
 
 /* Right*/
 .vdo {
     text-align: center;
     font-size: 45px;
-}
-
-.vdo .video_container {
-    
 }
 
 .vdo .video_container video {
@@ -193,4 +198,8 @@ main {
     height: 50px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.vdo h6 {
+    margin-bottom: -15px;
 }
