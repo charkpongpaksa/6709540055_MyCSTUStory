@@ -259,4 +259,6 @@ main {
     margin-right: 15px;
 }
 
-
+#copyright {
+    font-size: small;
+}
