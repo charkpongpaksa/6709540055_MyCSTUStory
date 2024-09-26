@@ -130,11 +130,24 @@ main {
 
 .Secondslide {
     border-radius: 20px;
-    background-color: #65A89B;
+    background-color: #65a89b;
     /* background-image: linear-gradient(#65a98b,rgba(255, 255, 255, 0)),url(resources/8c0b275e-06cd-45f5-9ceb-0d58ace2fb1e.jpg); */
     background-position: center;
     background-size: center;
-    height: 70vh;
+    height: 80vh;
+    box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.2);
+}
+
+#about_me {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 15%;
+    font-size: 30px;  
+    padding-top: 50px;  
+    text-decoration: underline;
 }
 
 /* left */
@@ -143,10 +156,10 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 45%;
-    height: 100%;
+    width: 50%;
+    height: 80%;
     float: left;
-    border: solid;
+    /* border: solid; */
 }
 
 .info #nameinfo {
@@ -154,33 +167,37 @@ main {
     font-weight: 400;
 }
 
-.info .info_describe {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.info .info_describe{
+    border: hiddden;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);;
+    box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.5);
+    padding: 40px;
 }
 
-/* .info #myphoto {
-    display: flex;
-    justify-content: center;
-    margin-top: -65px;
+.info .info_describe p {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 22px;
 }
 
-.info #myphoto img {
-    height: auto;
-    width: 78%;
-} */
+#status {
+    padding-top: 9px;
+    opacity: 0.8;
+    font-style: italic;
+    font-size: 23px;
+}
 
 /* Right*/
 .about {
-    border: solid;
+    /* border: solid; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 55%;
-    height: 100%;
+    width: 50%;
+    height: 80%;
     float: left;
-    padding: 30px;
     text-align: center;
 }
 
@@ -189,13 +206,41 @@ main {
     font-size: 45px;
 }
 
-.vdo .video_container video {
-    width: 70%;
-    height: auto;
-    object-fit: cover;
-    padding: 30px;
+.video_container {
+    
 }
 
+.vdo .video_container video {
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+    padding: 35px;
+    border: hiddden;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);;
+    box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.5);
+}
+
+/* Section 3 */
+
+.Thirdslide {
+    background: linear-gradient(rgba(207, 205, 205, 0),rgba(5, 238, 219, 0.158));
+}
+
+.Contact {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.Contact h2 {
+    padding-bottom: 15px;
+}
+.Contact ul {
+    padding-bottom: 15px;
+}
 
 .contact_logo {
     display: flex;
@@ -214,6 +259,4 @@ main {
     margin-right: 15px;
 }
 
-.vdo h6 {
-    margin-bottom: -15px;
-}
+
