@@ -33,7 +33,6 @@ header {
 }
 
 nav ul {
-    /* border: solid; */
     display: flex;
     list-style: none;
     background-color: #43766C;
@@ -184,7 +183,6 @@ main {
 
 /* Right*/
 .about {
-    /* border: solid; */
     display: flex;
     justify-content: center;
     align-items: center;
